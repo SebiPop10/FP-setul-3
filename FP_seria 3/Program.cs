@@ -310,7 +310,7 @@ namespace FP_seria_3
             int n,i,j;
             Console.WriteLine("Dati n: ");
             n=int.Parse(Console.ReadLine());
-            int[] a = new int[n];
+            int[] a = new int[n+1];
             a[0] = 1;
             a[1] = 1;
             for(i=2;i<Math.Sqrt(n);i++)
